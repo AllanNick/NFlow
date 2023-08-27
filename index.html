@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>N_Turb</title>
+<style>
+  body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #222;
+    color: white;
+  }
+
+  .document {
+    background-color: #242424;
+    padding: 25px;
+    border: 1px solid #414141;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+
+  .document-header {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 5px;
+    color: #fff;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+  
+  .another-title {
+    background-color: #3345a8; /* 圆角框框背景颜色 */
+    padding: 2px;
+    border-radius: 0px; /* 添加圆角 */
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clear: both;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+  <div class="document">
+    <div class="another-title">
+        <h1>N_Turb - a quick mesh-based turbulence solver</h1>
+    </div>
+    <h2>Introduce:</h2>
+    <p>This is a quick flow solver with simple-model.</p>
+    <p>In this passage, I will describe all technical specifics of the solver.</p>
+    <h2> </h2>
+    <h2>Data structure:</h2>
+    <p>We use fixed meshes to storage particle infomations, 
+      which means every single mesh could be treated as a container that fluid could come in and out easily</p>
+  </div>
+
+  <div class="document">
+    <div class="image-container">
+      <img src="img/storage_strategy.png" alt="storage_strategy" style="max-width: 400px; width: 100%; height: auto;">
+    </div>
+  </div>
+
+  <div class="document">
+    <h2>Procedure:</h2>
+    <p>This is the content of another section 2.</p>
+    <h3>Subsection 2.1</h3>
+    <p>This is the content of another subsection 2.1.</p>
+  </div>
+
+  <div class="document">
+    <div class="image-container">
+      <img src="img/diagram.png" alt="storage_strategy" style="max-width: 700px; width: 100%; height: auto;">
+    </div>
+  </div>
+</body>
+</html>
